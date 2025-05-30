@@ -1,4 +1,3 @@
-```bash
 #!/bin/bash
 #SBATCH --job-name=mhsc144h
 #SBATCH --partition=zen4
@@ -26,4 +25,3 @@ python scripts/0.whole_image_qc.py
 conda deactivate
 
 export MAX_WORKERS=$SLURM_CPUS_PER_TASK
-```
