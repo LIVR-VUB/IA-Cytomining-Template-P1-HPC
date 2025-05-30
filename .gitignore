@@ -1,0 +1,36 @@
+# ignore pycache
+__pycache__
+
+# ignore VSCode files
+.vscode
+
+# ignore log files
+*logs
+*.logs
+
+# ignore Mac related files
+.DS_Store
+
+# ignore jupyter files
+.ipynb_checkpoints/
+
+# ignore zip files (large)
+*.zip
+
+# ignore all plates as they are downloaded from figshare in instructions
+0.download_data/Plate_*
+
+# ignore corrected plates images as they are generated in IC notebook
+Corrected_Images/
+
+# ignore Cytotable runinfo logs
+runinfo
+
+# ignore bash scripts for running whole plates
+run_plate*.sh
+
+# ignore yaml file for preprocessing plates (is created after CytoTable run)
+*plate_info_dictionary.yaml
+
+# Ignore extra cppipe file used to generate example segmented images
+NF1_analysis_save_ex_images.cppipe
