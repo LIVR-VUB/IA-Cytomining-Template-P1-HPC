@@ -2,6 +2,11 @@
 
 This repository provides a structured and reproducible template for performing image-based profiling using high-content imaging data on an HPC environment. The workflow is based on the CellProfiler + cytomining pipeline and supports batch processing using SLURM job scripts.
 
+#### For cloning it directly to HPC: (*valid till 29th September, 2025*)
+```bash
+git clone https://arka2696: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@github.com/arka2696/Cytomining-Template-P1-HPC.git
+```
+
 ## Overview
 
 The pipeline follows the typical stages of a cytomining project:
